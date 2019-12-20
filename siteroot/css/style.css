@@ -1,0 +1,127 @@
+*,*::before,*::after {
+	box-sizing: border-box;
+}/* keeps padding and border from adding to width of element */
+
+body {
+	font-family: 'lato', sans-serif; 
+	background-repeat: repeat-y;
+	background-position: center, center;
+	background-color: #241773
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	}
+#featured {
+	width: 960px;
+	height:641px;
+	background-image: url(../images/truss_back.gif),
+	url(images/headerback.gif);
+}
+header {
+	width: 980px;
+	height: 98px;
+	
+	
+}
+
+header h1 {
+	width: 970px;
+	height: 97px;
+	background-image: url(../images/shield.gif);
+	text-indent: -9999px;
+	position: relative;
+	background-repeat: no-repeat;
+	top: 24px;
+	left: 12px;
+}
+h1 a {
+	display: block;
+	height: 20px;
+	width: 14px
+}
+
+header nav.global {
+	position: relative;
+	left: 200px;
+	width: 620px;
+	top: 5px;
+	background-color: rgba(0,0,0,.7);
+	border: solid 1px #241773;
+	padding: 10px; 
+	
+}
+nav.global ul li {
+	display: inline;
+	font-size: 19px;
+	font-family: 'lato';
+	font-weight: bold;
+	color: #241773
+}
+nav.global ul li a:link,
+nav.global ul li a:visited {
+	color: #9e7c0c;
+	text-decoration: none;
+}
+nav.global ul li a:hover,
+nav.global ul li a:focus,
+nav.global ul li a:active {
+	color: #bca0dc;
+	background-color:rgba(36,23,115,.1);
+	text-decoration: none;
+}
+
+.flex-wrapper {
+	display: flex;
+}
+.maincontent {
+	background: #18112f;
+}
+aside {
+
+ width: 500px;
+ padding: 5px 30px 55px 30px;
+}
+main {
+	width: 650px;
+	padding: 36px 10px 50px 20px;
+	background-color: #000;
+}
+main h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #9e7c0c;
+}
+main p {
+	font-size: 14px;
+	color: #9e7c0c;
+	line-height: 18px;
+	padding: 12px 0 0;
+}
+img.thumbs {
+	margin: 10px;
+}
+footer {
+	height:115px;
+	background-image: url(../images/afc.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+footer nav.global {
+	position: relative;
+	left: 100px;
+	width: 700px;
+	top: 70px;
+	background-color: rgba(0,0,0,.7);
+	border: solid 1px #241773;
+	padding: 10px; 
+}
+footer nav.global ul li {
+	display: inline;
+	font-size: 19px;
+	font-family: 'lato';
+	font-weight: bold;
+	color: #241773
+}
